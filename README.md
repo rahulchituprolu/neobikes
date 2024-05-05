@@ -7,9 +7,9 @@ Steps to run frontend:
 
 1. Navigate to the angular folder in the cloned project.
 
-2. run npm install
+2. run ```npm install```
 
-3. run npm start
+3. run ```npm start```
 
 4. now application runs at http://localhost:8081/
 
@@ -25,11 +25,11 @@ Steps to run backend:
 
 4. install mysql workbench
 
-5. open mysql workbench and create a new database with database name as "test"  with the command - create database test  
+5. open mysql workbench and create a new database with database name as "test"  with the command - ```create database test```  
 
 6. Navigate to spring folder in the cloned project.
 
-7. run mvn spring-boot:run
+7. run ```mvn spring-boot:run```
 
 8. backend server starts running at http://localhost:8080/ and you can see "Api is running" there.
 
