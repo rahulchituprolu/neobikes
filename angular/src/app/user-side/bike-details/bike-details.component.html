@@ -1,0 +1,34 @@
+<app-user-navbar></app-user-navbar>
+<div id="bikeBookingPage" class="row">
+    <div class="col-6">
+       <div class="image">
+        <img [src]="imageurl" class="img-fluid" alt="Bike Image">
+       </div>
+    </div>
+    <div class="col-6">
+        <div class="details col-12">
+            <div class="row">
+                <div class="col-6">
+                    <p>Bike Model </p>
+                    <p>Price </p>
+                    <p>Type   </p>
+                </div>
+                <div class="col-6">
+                    <p> :<span>{{bike.bikeNo}}</span></p>
+                
+                   <p> :<span>{{bike.price}} </span></p>
+                    <p>:<span>{{bike.type}}  </span></p>
+                </div>
+            </div>
+        </div>
+        
+
+           
+       
+        
+    </div>
+    <div class="descriptiondiv">
+        <button [disabled]="bike.status!='Available'" (click)="bookBike()" class="btn btn-success">Book the Bike</button>
+    </div>
+    
+</div>
