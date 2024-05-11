@@ -47,3 +47,5 @@ This application has 3 different types of users
 3. Super Admin:
   He is the one who has the control over the application. He can monitor over other admin and their bookings. At any point of time he can delete an admin.
 
+Detailed useCases are provided along with screenshots in the word document which is submitted for the project-phase-4 in black board.
+
